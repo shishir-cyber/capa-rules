@@ -6,12 +6,12 @@ rule:
       - shishir-cyber
     scopes:
       static: function
-      dynamic: unsupported  
+      dynamic: unsupported
     att&ck:
       - Defense Evasion::Obfuscated Files or Information [T1027]
     references:
       - https://attack.mitre.org/techniques/T1027/
-    examples: []  
+    examples: []
   features:
     - and:
       - string: /eyJ[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]*/
